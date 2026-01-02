@@ -2,11 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Finder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #fdf6e3;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        nav a, button {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        nav a:hover, button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
+
     <h1>Welcome to Recipe Finder</h1>
     <p>Search for your favorite recipes and discover new dishes!</p>
-    <button onclick="location.href='search.html'">Start Searching</button>
+
+    <!-- Navigation Links -->
+    <nav>
+        <a href="github.html">GitHub</a>
+        <a href="find.html">Find Recipe</a>
+        <a href="result.html">Results</a>
+        <a href="details.html">Details</a>
+    </nav>
+
+    <br>
+
+    <!-- Start Button -->
+    <button onclick="location.href='find.html'">Start Searching</button>
+
 </body>
 </html>
